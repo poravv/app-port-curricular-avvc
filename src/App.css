@@ -20,6 +20,9 @@ body, html {
     min-height: 50vh;
     flex-direction: column;
   }
+  .img {
+    width: 20rem;
+  }
 }
 
 .App-header {
