@@ -45,6 +45,8 @@ body, html {
 section {
   margin: 0 0;
   text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 

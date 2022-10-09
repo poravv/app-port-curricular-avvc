@@ -6,6 +6,7 @@ import Experiencias from '../componentes/Experiencias';
 import Contactos from '../componentes/Contactos';
 import Estudios from '../componentes/Estudios';
 import Capacitaciones from '../componentes/Capacitaciones';
+import Conocimientos from '../componentes/Conocimientos';
 import Navbar from '../layouts/NavBar';
 
 
@@ -18,6 +19,7 @@ function NavigatorBar() {
             <Route index element={<Inicio />} />
             <Route path='SobreMi' element={<SobreMi />} />
             <Route path='Experiencias' element={<Experiencias />} />
+            <Route path='Conocimientos' element={<Conocimientos />} />
             <Route path='Estudios' element={<Estudios />} />
             <Route path='Capacitaciones' element={<Capacitaciones />} />
             <Route path='Contactos' element={<Contactos />} />

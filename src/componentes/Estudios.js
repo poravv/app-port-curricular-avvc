@@ -5,9 +5,9 @@ function Estudios() {
 
     const listaEstudios = [ 
         {
-            titulo:"Bachiller Técnico en Informática",
-            adicional:"2010 – 2012",
-            contenido:`Centro Educativo Técnico Privado (EducArt)`
+            titulo:"Ingeniería en Sistemas Informáticos",
+            adicional:"2021-cursando",
+            contenido:`Universidad Tecnológica Intercontinental (UTIC)`
         },
         {
             titulo:"Licenciatura en Análisis de Sistemas Informáticos",
@@ -15,10 +15,12 @@ function Estudios() {
             contenido:`Universidad Tecnológica Intercontinental (UTIC)`
         },
         {
-            titulo:"Ingeniería en Sistemas Informáticos",
-            adicional:"2021-cursando",
-            contenido:`Universidad Tecnológica Intercontinental (UTIC)`
-        }
+            titulo:"Bachiller Técnico en Informática",
+            adicional:"2010 – 2012",
+            contenido:`Centro Educativo Técnico Privado (EducArt)`
+        },
+        
+        
     ];
 
     return (

@@ -15,6 +15,7 @@ const NavBarV1 = () => {
                             <Nav className="me-auto">
                                 <Nav.Link as={Link} to='/SobreMi' >Sobre mi</Nav.Link>
                                 <Nav.Link as={Link} to='/Experiencias' >Experiencias</Nav.Link>
+                                <Nav.Link as={Link} to='/Conocimientos' >Conocimientos</Nav.Link>
                                 <Nav.Link as={Link} to='/Estudios' >Estudios</Nav.Link>
                                 <Nav.Link as={Link} to='/Capacitaciones' >Capacitaciones</Nav.Link>
                                 <Nav.Link as={Link} to='/Contactos' >Contactos</Nav.Link>

@@ -1,6 +1,7 @@
 import { React } from "react";
 import { Container } from "react-bootstrap";
-import '../App.css'
+import '../App.css';
+import imagen2 from '../assets/persona.png';
 
 
 
@@ -24,7 +25,12 @@ const SobreMi = () => {
                             mas optimas para cualquier problematica.
                         </p>
                     </Container>
+
+                    <div className='container'>
+                    <img className='img' alt="img1" src={imagen2} />
+                </div>
             </div>
+            <br/>
         </section>
     );
 }
