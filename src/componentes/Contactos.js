@@ -3,7 +3,7 @@ const Contactos = () => {
     return(
         <>
         <section>
-        <h1 style={{display: `flex`, justifyContent: `center` }}>Capacitaciones</h1>
+        <h1 style={{display: `flex`, justifyContent: `center` }}>Contactos</h1>
         </section>
         </>
     );
