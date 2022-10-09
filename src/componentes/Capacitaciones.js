@@ -81,18 +81,12 @@ function Capacitaciones() {
     return (
         <>
             <section>
-            <h1 style={{display: `flex`, justifyContent: `center` }}>Capacitaciones</h1>
-                <div className="container">
-                    <div className="tareas-lista-contenedor">
-                        <div className="row">
-                            {
-                                listaCapacitaciones.map((experiencia) => {
-                                    return <MyCardSimple contenido={experiencia.contenido} />
-                                })
-                            }
-                        </div>
-                    </div>
-                </div>
+                <h1 style={{ display: `flex`, justifyContent: `center` }}>Capacitaciones</h1>
+                {
+                    listaCapacitaciones.map((experiencia) => {
+                        return <MyCardSimple contenido={experiencia.contenido} />
+                    })
+                }
             </section>
         </>
     );

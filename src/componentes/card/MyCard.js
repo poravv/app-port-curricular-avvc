@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 function MyCard({ titulo, contenido, adicional, lista }) {
   return (
     <>
-      <Card className="card" style={{ margin: `60px`, display: `flex`, flexDirection: `row`, justifyContent: `center` }}>
+      <Card className="card" style={{ margin: `10px`, display: `flex`, flexDirection: `row`, justifyContent: `center` }}>
         <Card.Body>
           <Card.Title>{titulo}</Card.Title>
           <Card.Text className="card-text text-secondary">

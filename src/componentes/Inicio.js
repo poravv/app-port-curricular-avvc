@@ -1,15 +1,14 @@
 import React from 'react'
-import { Container } from "react-bootstrap";
 import Imagen from '../assets/programacion3.png';
 
 export const Inicio = () => {
     return (
-        <section>
-            <div className="personal">
-                <Container>
+        <>
+          <div className="personal" style={{display: `flex` , alignItems:`center`, justifyContent:`center`,textAlign:`center`  }}>
+                <div className='container'>
                     <img alt="img1" src={Imagen} />
-                </Container>
-                <Container>
+                </div>
+                <div className='container'>
                     <h1>Bienvenido a mi sitio</h1>
                     <p>Aqui encontraras todo lo relacionado con mi experiencia profesional en el rubro de
                         la informatica y otros cursos y conocimientos extra que eh ido adquiriendo al paso
@@ -18,9 +17,9 @@ export const Inicio = () => {
                     <p style={{ fontweight: `bold` }}>
                         Andrés Valentin Vera Chavez
                     </p>
-                </Container>
+                </div>
             </div>
-        </section>
-    )
+        </>
+    );
 }
 export default Inicio;
