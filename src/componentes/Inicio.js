@@ -10,12 +10,11 @@ export const Inicio = () => {
                 </div>
                 <div className='container'>
                     <h1>Bienvenido a mi sitio</h1>
-                    <p>Aqui encontraras todo lo relacionado con mi experiencia profesional en el rubro de
-                        la informatica y otros cursos y conocimientos extra que eh ido adquiriendo al paso
-                        de los años. Sin mas que decir, espero la información te sea de utilidad para lo
-                        que estas buscando</p>
+                    <p>Aquí encontraras todo lo relacionado con mi experiencia profesional en el rubro de la informática y 
+                        otros cursos y conocimientos extra que he ido adquiriendo al paso de los años. Sin más que decir, 
+                        espero la información te sea de utilidad para lo que estas buscando.</p>
                     <p style={{ fontweight: `bold` }}>
-                        Andrés Valentin Vera Chavez
+                        <b>Andrés Vale ntin Vera Chavez</b>
                     </p>
                 </div>
             </div>
