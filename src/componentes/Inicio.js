@@ -14,7 +14,7 @@ export const Inicio = () => {
                         otros cursos y conocimientos extra que he ido adquiriendo al paso de los años. Sin más que decir, 
                         espero la información te sea de utilidad para lo que estas buscando.</p>
                     <p style={{ fontweight: `bold` }}>
-                        <b>Andrés Vale ntin Vera Chavez</b>
+                        <b>Andrés Valentin Vera Chavez</b>
                     </p>
                 </div>
             </div>
