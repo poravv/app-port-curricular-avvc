@@ -74,14 +74,23 @@ function Capacitaciones() {
         },
         {
             contenido: "Curso de Desarrollo de Apps Móviles –Universidad Complutense de Madrid & Google Activate(2018)",
-        }
+        },
+        {
+            contenido: "Curso Scrum LinkedIn Learning (2022)",
+        },
+        {
+            contenido: "Fundamentos del desarrollo web: Full Stack o Front-end  LinkedIn Learning (2022)",
+        },
+        {
+            contenido: "JavaScript - LinkedIn Learning (2022)",
+        },
 
     ];
 
     return (
         <>
             <section>
-                <h1 style={{ display: `flex`, justifyContent: `center` }}>Capacitaciones</h1>
+                <h1 style={{ display: `flex`, justifyContent: `center`,margin:`30px` }}>Capacitaciones</h1>
                 {
                     listaCapacitaciones.map((experiencia) => {
                         return <MyCardSimple contenido={experiencia.contenido} />

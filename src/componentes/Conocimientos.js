@@ -65,7 +65,7 @@ function Conocimientos() {
     return (
         <>
             <section>
-                <h1 style={{ display: `flex`, justifyContent: `center` }}>Conocimientos del area</h1>
+                <h1 style={{ display: `flex`, justifyContent: `center`,margin:`30px` }}>Conocimientos</h1>
                 <div style={{ flexWrap: `wrap`, display: `flex`, justifyContent: `center` }}>
                     {
                         listaConocimientos.map((conocimientos) => {
