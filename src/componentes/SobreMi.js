@@ -1,7 +1,7 @@
 import { React } from "react";
 import { Container } from "react-bootstrap";
 import '../App.css';
-import imagen2 from '../assets/persona.png';
+import imagen2 from '../assets/programacion3.png';
 
 
 

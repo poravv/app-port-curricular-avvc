@@ -1,12 +1,12 @@
 import React from 'react'
-import Imagen from '../assets/programacion3.png';
+import Imagen from '../assets/miimg.jpg';
 
 export const Inicio = () => {
     return (
         <>
           <div className="personal" style={{display: `flex` , alignItems:`center`, justifyContent:`center`,textAlign:`center`  }}>
-                <div className='container'>
-                    <img style={{ width:`300px` }} className='img' alt="img1" src={Imagen} />
+                <div style={{ marginLeft:`60px` }}>
+                    <img style={{ width:`300px`, borderRadius:`100%` }} className='img' alt="img1" src={Imagen} />
                 </div>
                 <div className='container'>
                     <h1>Hola y bienvenido</h1>
