@@ -1,7 +1,6 @@
 import { React } from "react";
 import { Container } from "react-bootstrap";
 import '../App.css';
-import imagen2 from '../assets/programacion3.png';
 
 const SobreMi = () => {
     return (
@@ -20,18 +19,12 @@ const SobreMi = () => {
                         más óptimas para cualquier problemática.
                     </p>
                     <p>
-                        Actualmente me encuentro realizando trabajos para una empresa, sin embargo también cumplo labores como desarrollador independiente para personas o empresas
-                    </p>
-                    <p>
-                        Resido hoy en día en la ciudad de Capiatá - Paraguay
+                        Actualmente me encuentro realizo trabajos para una empresa privada, sin embargo a su vez cumplo labores como desarrollador independiente para personas o empresas
                     </p>
                 </Container>
-
-                
                     <div style={{ margin:`30px`}}>
-                        <img style={{ width:`300px` }} className='img' alt="img1" src={imagen2} />
+                        <img style={{ width:`500px`,borderRadius:`10px` }} className='img' alt="img1" src='https://static.wixstatic.com/media/9c808c_32d2e8877a334b3593c7120840168131~mv2.gif' />
                     </div>
-                
             </div>
             <br />
         </section>

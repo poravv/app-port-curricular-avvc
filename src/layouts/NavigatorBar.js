@@ -1,6 +1,7 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //Importamos componentes creados
 import Inicio from '../componentes/Inicio';
+import Error from '../componentes/Error';
 import SobreMi from '../componentes/SobreMi';
 import Experiencias from '../componentes/Experiencias';
 import Contactos from '../componentes/Contactos';
@@ -23,8 +24,7 @@ function NavigatorBar() {
             <Route path='Estudios' element={<Estudios />} />
             <Route path='Capacitaciones' element={<Capacitaciones />} />
             <Route path='Contactos' element={<Contactos />} />
-
-            <Route path='*' element={<Navigate replace to='/' />} />
+            <Route path='*' element={<Error replace to='/error' />} />
         </Route>
     </Routes>
 </BrowserRouter>

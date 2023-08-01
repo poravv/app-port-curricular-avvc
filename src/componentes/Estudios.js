@@ -26,7 +26,7 @@ function Estudios() {
     return (
         <>
         <section>
-        <h1 style={{display: `flex`, justifyContent: `center`,margin:`30px` }}>Estudios</h1>
+        <h1 style={{display: `flex`, justifyContent: `center`,margin:`20px` }}>Estudios</h1>
             <div className="container d-flex justify-content-center">
             <div className="column">
                 <div className="row-md-4">

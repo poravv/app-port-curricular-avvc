@@ -71,7 +71,7 @@ function Experiencias() {
             }}
         >
             <div className="app">
-            <h1 style={{ display: `flex`, justifyContent: `center`,margin:`30px` }}>Experiencias</h1>
+            <h1 style={{ display: `flex`, justifyContent: `center`,margin:`20px` }}>Experiencias</h1>
                 <Droppable droppableId="tasks">
                     {(droppableProvided) => (
                         <ul
