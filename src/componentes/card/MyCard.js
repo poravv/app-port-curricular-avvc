@@ -1,10 +1,10 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-function MyCard({ titulo, contenido, adicional, lista }) {
+function MyCard({ titulo, contenido, adicional, lista,color}) {
   return (
     <>
-      <Card className="card" style={{ margin: `10px`, display: `flex`, flexDirection: `row`, justifyContent: `center` }}>
+      <Card className="card" style={{ margin: `10px`, display: `flex`, flexDirection: `row`, justifyContent: `center`,backgroundColor:(color===null||color==='undefine'?'white':color) }}>
         <Card.Body>
           <Card.Title>{titulo}</Card.Title>
           <Card.Text className="card-text text-secondary">

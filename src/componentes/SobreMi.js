@@ -3,8 +3,6 @@ import { Container } from "react-bootstrap";
 import '../App.css';
 import imagen2 from '../assets/programacion3.png';
 
-
-
 const SobreMi = () => {
     return (
         <section>
