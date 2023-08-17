@@ -9,8 +9,8 @@ export const Inicio = () => {
                     <img style={{ width:`300px`, borderRadius:`100%` }} className='img' alt="img1" src={Imagen} />
                 </div>
                 <div className='container'>
-                    <h1>Hola y bienvenido</h1>
-                    <p>Me presento, mi nombre es Andrés Valentin Vera Chavez y me dedico al desarrollo de Software.</p>
+                    <h1>Hola, bienvenido</h1>
+                    <p>Mi nombre es Andrés Vera y me dedico al desarrollo de Software.</p>
                     <p>Aquí encontraras todo lo referente a mi experiencia profesional en el rubro de la informática y 
                         otros cursos y conocimientos extra que he ido adquiriendo al paso de los años. </p>
                         <p>Sin más que añadir, 
