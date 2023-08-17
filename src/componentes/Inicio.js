@@ -13,10 +13,7 @@ export const Inicio = () => {
                     <p>Mi nombre es Andrés Vera y me dedico al desarrollo de Software.</p>
                     <p>Aquí encontraras todo lo referente a mi experiencia profesional en el rubro de la informática y 
                         otros cursos y conocimientos extra que he ido adquiriendo al paso de los años. </p>
-                        <p>Sin más que añadir, 
-                        espero que la información te sea de utilidad para lo que estas buscando.</p>
-                    <p>Saludos cordiales </p>
-                    
+                        <p>Sin más que añadir, espero que la información te sea de utilidad para lo que estas buscando. ✌🏽</p>
                 </div>
             </div>
         </>
