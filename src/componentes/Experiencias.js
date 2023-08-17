@@ -29,13 +29,13 @@ const listaExperiencias = [
         titulo: "Freelancer",
         adicional: "2020 - Hasta la fecha",
         contenido: `Desarrollo de Apps y sistemas web`,
-        lista: `-Elaboración de Diagrama entidad relación
+        lista: `
         -Configuración de servidores de base de datos privado con ip publica
         -Desarrollo de Servicios Rest con NodeJs, ORM Sequelize y base de datos MYSQL
         -Vinculación de trabajos a sistema de versiones Git (Github)
         -Desarrollo de Apps Móviles con lenguaje Dart y SDK Flutter de Google para android y/o iOs
         -Desarrollo de Aplicaciones FrontEnd con Framework ReactJs y AntDesigne`
-
+//-Elaboración de Diagrama entidad relación
     }
 ];
 

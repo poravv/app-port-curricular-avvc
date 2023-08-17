@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import MyCard from '../componentes/card/MyCard';
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
+import MyCardV2 from './card/MyCardV2';
 
 const listaConocimientos = [
     {
@@ -115,7 +115,7 @@ function Conocimientos() {
                                                         ref={draggableProvided.innerRef}
                                                         {...draggableProvided.dragHandleProps}
                                                     >
-                                                        <MyCard titulo={task.titulo} lista={task.lista} color={(index%2===0?'#E1E9FC':'#E7FCE1')} />
+                                                        <MyCardV2 titulo={task.titulo} lista={task.lista} color={(index%2===0?'#022772':'#3B0280')} />
                                                     </div>
                                                 )}
                                             </Draggable>

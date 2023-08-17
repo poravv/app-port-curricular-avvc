@@ -11,7 +11,7 @@ const SobreMi = () => {
                     <p>
                         Personal y profesionalmente hablando busco siempre aumentar mi base de
                         conocimientos y experiencias poniendo en práctica las habilidades que voy
-                        adquiriendo. Crecer personal y profesionalmente aprendiendo y enseñando.
+                        adquiriendo.
                     </p>
                     <p>
                         Me considero una persona bastante sociable con facilidad de comunicación y alta
