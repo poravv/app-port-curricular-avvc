@@ -7,7 +7,7 @@ const listaExperiencias = [
     {
         id: "1",
         titulo: "One S.R.L",
-        adicional: "Marzo 2015-Hasta la fecha",
+        adicional: "Marzo 2015-Febrero 2024",
         contenido: `Servicios Informáticos - Hardware y Software
         Proyectos: Migración de base de datos OnDemand. Depuración de datos, E-Kuatia.`,
         lista: `-Participación en tareas de Relevamiento de Datos
