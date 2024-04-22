@@ -6,13 +6,12 @@ const listaConocimientos = [
     {
         id: "1",
         titulo: "Lenguajes de Programación",
-        lista: `Visual Fox Pro 9 - Básico 
-        PHP 
-        Dart - Flutter 
-        Node Js - JavaScript y React
-        Java Descktop 
-        Java Web JSP 
-        Java WEB JSF`
+        lista: ` Java Descktop, JSP, JSF, Spring Boot 
+        Node Js - React
+        Dart - Flutter
+        PLSQL
+        Visual Fox Pro 9 - Básico
+        PHP`
     },
     {
         id: "2",
@@ -41,9 +40,11 @@ const listaConocimientos = [
     {
         id: "5",
         titulo: "Herramientas utilizadas",
-        lista: `Notepad++
-        Vi(Editor de Texto Linux) 
-        SQLTools 
+        lista: `Vs code
+        IntelliJ
+        Netbeans
+        Notepad++
+        SQLTools
         WinSql 
         PGAdmin 
         PLSQL
@@ -57,12 +58,15 @@ const listaConocimientos = [
         DBDesigner 4
         Putty
         Git
-        Bootstrap
-        Macromedia 
-        Dreamweaver 
-        StaUML 
+        Docker
+        Keycloak
+        Macromedia
+        Dreamweaver
+        StaUML
         BlueJ
-        jEdit`
+        jEdit
+        Angular-Material
+        React-AntDesign-Bootstrap`
     },
 ];
 
