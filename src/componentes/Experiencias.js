@@ -27,15 +27,15 @@ const listaExperiencias = [
     {
         id: "3",
         titulo: "Freelancer",
-        adicional: "2020 - Hasta la fecha",
+        adicional: "2020 - 2023",
         contenido: `Desarrollo de Apps y sistemas web`,
-        lista: `
-        -Configuración de servidores de base de datos privado con ip publica
+        lista: `-Configuración de servidores de base de datos privado con ip publica
         -Desarrollo de Servicios Rest con NodeJs, ORM Sequelize y base de datos MYSQL
-        -Vinculación de trabajos a sistema de versiones Git (Github)
-        -Desarrollo de Apps Móviles con lenguaje Dart y SDK Flutter de Google para android y/o iOs
-        -Desarrollo de Aplicaciones FrontEnd con Framework ReactJs y AntDesigne`
-//-Elaboración de Diagrama entidad relación
+        -Gestion de contenedores Docker
+        -Sistema de versiones Git (Github)
+        -Apps Móviles con lenguaje Dart y SDK Flutter de Google para android y/o iOs
+        -Desarrollo de Aplicaciones FrontEnd con Framework ReactJs-AntDesigne
+        -Desarrollo de Aplicaciones FrontEnd con Framework Angular-Material`,
     }
 ];
 

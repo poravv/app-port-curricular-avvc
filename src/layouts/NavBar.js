@@ -7,10 +7,9 @@ const NavBarV1 = () => {
         <div>
             <Navbar fixed="absolute" expand="lg" >
                 <Container >
-                    <Navbar.Brand as={Link} to='/'>Inicio</Navbar.Brand>
+                    <Navbar.Brand as={Link} to='/'>Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to='/SobreMi' >Sobre mi</Nav.Link>
                             <Nav.Link as={Link} to='/Experiencias' >Experiencias</Nav.Link>
