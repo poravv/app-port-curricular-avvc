@@ -4,13 +4,16 @@ import { Card } from "react-bootstrap";
 function MyCardV2({ titulo, contenido, adicional, lista,color}) {
   return (
     <>
-      <Card className="card" style={{ margin: `10px`, display: `flex`, flexDirection: `row`, justifyContent: `center`,backgroundColor:(color===null||color==='undefine'?'white':color) }}>
+      <Card className="card"  style={{ backgroundColor:`#1b1b32`,margin: `10px`, display: `flex`, flexDirection: `row`, justifyContent: `center`,
+      //backgroundColor:(color===null||color==='undefine'?'white':color) 
+      color:`white`
+      }}>
         <Card.Body>
-          <Card.Title style={{ color:`white` }}>{titulo}</Card.Title>
-          <Card.Text style={{ color:`white` }}>
+          <Card.Title >{titulo}</Card.Title>
+          <Card.Text >
             {contenido}
           </Card.Text>
-          <Card.Text style={{ whitespace: `pre-wrap`,color:`white` }}>
+          <Card.Text style={{ whitespace: `pre-wrap` }}>
             
             {
               //Aqui se aplica el salto de linea 
